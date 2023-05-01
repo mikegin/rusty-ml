@@ -98,6 +98,7 @@ fn test_nand() {
 }
 
 #[test]
+#[should_panic]
 fn test_xor() {
     //fails! cannot be done with 1 neuron...
     learn(xor_gate);
